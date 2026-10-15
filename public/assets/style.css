@@ -90,6 +90,8 @@ footer{border-top:1px solid var(--line);padding:60px 40px;color:var(--muted);fon
 footer .row{max-width:var(--max);margin:0 auto;display:flex;flex-wrap:wrap;justify-content:space-between;gap:20px}
 footer a{text-decoration:none;margin-right:22px;text-transform:uppercase;letter-spacing:.16em;font-size:12px}
 footer a:hover{color:var(--text)}
+footer .row>div{min-width:0;max-width:100%}
+@media(max-width:600px){footer{padding:50px 22px}}
 .fade{opacity:0;transform:translateY(24px);transition:opacity .9s ease,transform .9s ease}.fade.in{opacity:1;transform:none}
 @media (prefers-reduced-motion:reduce){.fade{opacity:1;transform:none;transition:none}}
 
