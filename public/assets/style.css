@@ -13,6 +13,9 @@ a{color:inherit}img{max-width:100%;display:block}
 .links a:hover,.links a.on{opacity:1;border-bottom-color:var(--text)}
 .links .cta{border:2px solid var(--text);padding:8px 18px;border-bottom-width:2px}
 .links .cta:hover{background:var(--text);color:#000}
+.links .lang{display:flex;gap:10px;margin-left:-6px}
+.links .lang a{font-size:12px;opacity:.5}
+.links .lang a.on{opacity:1;border-bottom-color:transparent}
 .burger{display:none;background:none;border:0;color:var(--text);font-size:26px;cursor:pointer}
 @media(max-width:900px){.nav{padding:16px 20px}.burger{display:block}.links{position:fixed;inset:64px 0 auto 0;flex-direction:column;align-items:flex-start;gap:18px;padding:26px 24px;background:#000;border-bottom:1px solid var(--line);display:none}.links.open{display:flex}}
 /* hero sections */
