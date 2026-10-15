@@ -89,7 +89,6 @@
  "add-on": "extra",
  "Live session on your report": "Live sessie over je rapport",
  "Every question answered": "Antwoord op elke vraag",
- "In English, any country": "In het Nederlands of Engels, elk land",
  "Add a Zoom call": "Voeg een Zoom-gesprek toe",
  "Secure payment by card or PayPal through Stripe. After paying you will receive an email to send your data.": "Veilig betalen met kaart of PayPal via Stripe. Na betaling ontvang je een e-mail om je data te sturen.",
  "Questions": "Vragen",
@@ -101,7 +100,6 @@
  "Why not just ask an AI chatbot?": "Waarom niet gewoon een AI-chatbot vragen?",
  "You can, if you have the time to clean the data, check every number and research your market. We do that work and hand you a finished, checked report.": "Dat kan, als je de tijd hebt om de data op te schonen, elk cijfer te controleren en je markt te onderzoeken. Wij doen dat werk en geven je een afgewerkt, gecontroleerd rapport.",
  "Do you work outside Spain?": "Werken jullie ook buiten Spanje?",
- "Yes. Reports are in English and calls are on Zoom, wherever you are.": "Ja. Rapporten zijn in het Nederlands of Engels en gesprekken via Zoom, waar je ook bent.",
  "Case study · Tenerife excursion booth": "Case study · Excursiekiosk op Tenerife",
  "652 handwritten tickets from an excursion booth in Tenerife, turned into a 90-day plan.": "652 handgeschreven tickets van een excursiekiosk op Tenerife, omgezet in een plan voor 90 dagen.",
  "Case study · Playa de las Américas, Tenerife": "Case study · Playa de las Américas, Tenerife",
@@ -168,7 +166,6 @@
  "You receive the deck": "Je ontvangt de presentatie",
  "10 to 15 slides in PowerPoint and PDF: charts, findings and a 90-day action plan.": "10 tot 15 slides in PowerPoint en PDF: grafieken, inzichten en een actieplan voor 90 dagen.",
  "Optional Zoom": "Zoom als optie",
- "A live walkthrough of every chart, in English, wherever you are.": "Een live uitleg van elke grafiek, in het Nederlands of Engels, waar je ook bent.",
  "Why €590": "Waarom €590",
  "The report pays for itself with one decision": "Het rapport betaalt zichzelf terug met één beslissing",
  "In our first case study, one change (recommending the products with the highest commission first) is estimated at about €1,400 more per quarter. That is more than twice the price of the report, from a single slide.": "In onze eerste case study wordt één verandering (eerst de producten met de hoogste commissie aanraden) geschat op zo'n €1.400 extra per kwartaal. Dat is meer dan twee keer de prijs van het rapport, uit één slide.",
@@ -362,5 +359,9 @@
  "Share of sales value. Sample of 107 tickets read in full.": "Aandeel in de verkoopwaarde. Steekproef van 107 volledig gelezen tickets.",
  "Sales by hour": "Verkoop per uur",
  "All 652 tickets, by the time each was sent to the staff WhatsApp group.": "Alle 652 tickets, volgens het uur waarop elk naar de WhatsApp-groep van het personeel werd gestuurd.",
- "This is an example. All data stays stored and is for the business's own use only; it is shown here anonymously and with permission.": "Dit is een voorbeeld. Alle data blijft bewaard en is alleen voor eigen gebruik van het bedrijf; ze wordt hier anoniem en met toestemming getoond."
+ "This is an example. All data stays stored and is for the business's own use only; it is shown here anonymously and with permission.": "Dit is een voorbeeld. Alle data blijft bewaard en is alleen voor eigen gebruik van het bedrijf; ze wordt hier anoniem en met toestemming getoond.",
+ "Open the example": "Open het voorbeeld",
+ "In English, Spanish or Dutch, any country": "In het Nederlands, Engels of Spaans, elk land",
+ "Yes. Reports are in English, Spanish or Dutch and calls are on Zoom, wherever you are.": "Ja. Rapporten zijn in het Nederlands, Engels of Spaans en gesprekken via Zoom, waar je ook bent.",
+ "A live walkthrough of every chart, in English, Spanish or Dutch, wherever you are.": "Een live uitleg van elke grafiek, in het Nederlands, Engels of Spaans, waar je ook bent."
 }

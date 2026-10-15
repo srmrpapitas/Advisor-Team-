@@ -13,8 +13,11 @@ class P(HTMLParser):
         if t in('script','style'): s.skip-=1
     def handle_data(s,d):
         if not s.skip and d.strip() and re.search('[A-Za-z]',d): S[d.strip()]=''
-for f in [g for g in glob.glob(os.path.join(os.path.dirname(os.path.abspath(__file__)),'..','public','**','*.html'),recursive=True) if '/public/nl/' not in g]: P().feed(open(f).read())
-D=json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)),'nl.json')))
-miss=[k for k in S if k not in D]
-print(len(S),'strings,',len(miss),'without Dutch (add them to tools/nl.json):')
-for k in miss: print(' ',repr(k))
+for f in [g for g in glob.glob(os.path.join(os.path.dirname(os.path.abspath(__file__)),'..','public','**','*.html'),recursive=True) if not re.search(r'/public/(nl|es)/',g)]: P().feed(open(f).read())
+H=os.path.dirname(os.path.abspath(__file__))
+for lang,name in (('nl','Dutch'),('es','Spanish')):
+    f=os.path.join(H,lang+'.json')
+    D=json.load(open(f)) if os.path.exists(f) else {}
+    miss=[k for k in S if k not in D]
+    print(len(S),'strings,',len(miss),'without',name,'(add them to tools/'+lang+'.json):')
+    for k in miss: print(' ',repr(k))
