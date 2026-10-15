@@ -1,5 +1,13 @@
 {
   "name": "advisor-team",
+  "main": "src/worker.js",
   "compatibility_date": "2026-10-01",
-  "assets": { "directory": "./public" }
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS",
+    "run_worker_first": ["/api/*"]
+  },
+  "d1_databases": [
+    { "binding": "DB", "database_name": "advisor-team-users", "database_id": "0860ea26-2b70-4169-b7c8-12e14298d6e7" }
+  ]
 }
