@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Log in · Advisor Team</title>
+<meta name="description" content="Log in">
+<meta property="og:title" content="Log in · Advisor Team"><meta property="og:description" content="Log in"><meta property="og:image" content="/img/hero.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500&family=Barlow+Condensed:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/style.css">
+</head>
+<body data-solid="1">
+<div class="formwrap"><div class="art" style="background-image:url(/img/trail.jpg)"></div><div class="side"><form id="f" novalidate><p class="kicker">Advisor Team</p><h2>Welcome back</h2><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required><label for="password">Password</label><input id="password" name="password" type="password" autocomplete="current-password" required><button class="btn gold" type="submit">Log in</button><div class="msg" role="status"></div><p class="small">New here? <a href="/signup">Create an account</a></p></form></div></div>
+<script src="/assets/app.js"></script>
+<script>postForm(document.getElementById("f"),"/api/login","/account")</script>
+</body>
+</html>

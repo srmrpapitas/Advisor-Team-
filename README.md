@@ -1,12 +1,13 @@
 # Advisor Team
 
-One-page website for the **Business Snapshot**: a one-time data report (charts + slides) for small businesses without a data team.
+Website for the **Business Snapshot**: a one-time data report for small businesses without a data team.
 
-- `public/index.html` is the whole site (static, no build step).
-- `wrangler.jsonc` serves `public/` as a Cloudflare Worker with static assets.
+- `public/` holds every page (home, snapshot, case study, pricing, news, sign up, log in, account), `assets/` and `img/`. Static, no build step.
+- `src/worker.js` is the account API (`/api/signup`, `/api/login`, `/api/logout`, `/api/me`), backed by the D1 database `advisor-team-users`. Its tables are in `schema.sql`.
+- Cloudflare Workers Builds deploys every push to `main`.
 
-## Deploy
-Cloudflare dashboard → Workers & Pages → Create → Import a repository → `Advisor-Team-`. Build command: none. Deploy command: `npx wrangler deploy`. Every push to `main` then redeploys.
-
-## Before going live
-Search `TODO` in `public/index.html` and replace the Stripe payment link, the booking link and the contact email.
+## Local preview
+```
+npx wrangler d1 execute advisor-team-users --local --file=schema.sql
+npx wrangler dev
+```
